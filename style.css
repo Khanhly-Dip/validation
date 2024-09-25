@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    width: 400px;
+    padding: 40px 20px;
+    margin: 20px 0;
+    box-shadow: 8px 8px 3px 2px rgb(0, 0, 0, 0.3), -3px -3px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.healing{
+    font-size: 30px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+.decs{
+    font-size: 22px;
+    color: #858282;
+    display: flex;
+    justify-content: center;
+    padding:18px 0 40px 0;
+}
+.form_group{
+    padding: 12px 0;
+
+}
+.form_group label{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+}
+.form_group input{
+    padding: 8px;
+    font-size: 16px;
+    outline-color: rgb(129, 219, 185) ;
+    outline-width: 1px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    margin: 6px 0;
+    width: 100%;
+}
+.form_group span{
+    color: red;
+    padding-left: 8px;
+}
+.form_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_button button{
+    padding: 8px 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(60, 175, 175);
+    border-radius: 5px;
+    border: 1px rgb(60, 175, 175) solid;
+    margin-top: 20px;
+}
